@@ -1,0 +1,43 @@
+# 🔥 Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🔥 Ignore virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# 🔥 Ignore test and coverage artifacts
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# 🔥 Ignore IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 🔥 Ignore Jupyter and IPython junk
+.ipynb_checkpoints/
+*.ipynb
+
+# 🔥 Ignore log and backup files
+*.log
+*.bak
+*.swp
+
+# 🔥 Ignore macOS/Windows noise
+.DS_Store
+Thumbs.db
+
+# 🔥 Ignore output CSV but not .txt
+google_docs_links.csv
