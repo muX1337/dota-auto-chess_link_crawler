@@ -1,0 +1,17 @@
+# 📄 Steam Changelog Google Docs Link Extractor
+
+This project is a Python-based web scraper that crawls through the changelog pages of a specific **Steam Workshop item**, extracting all **Google Docs links** embedded via Steam redirectors. The links and their titles are saved in both `.txt` and `.csv` formats.
+
+## 🚀 Features
+
+- Extracts titles and links to **Google Docs** from up to 91 pages of Steam changelogs.
+- Saves results to:
+  - `google_docs_links.txt` — plain text format
+  - `google_docs_links.csv` — CSV with header
+- Uses standard libraries with minimal dependencies.
+
+---
+
+## 📁 Output Format
+
+### `google_docs_links.txt`
