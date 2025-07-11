@@ -39,5 +39,6 @@ pytest_cache/
 .DS_Store
 Thumbs.db
 
-# 🔥 Ignore output CSV but not .txt
+# 🔥 Ignore output 
 google_docs_links.csv
+google_docs_links.txt
